@@ -1,0 +1,113 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "Pc2ORQp+VY3Un/dkh4QwLC7R6lE=",
+			"path": "github.com/BurntSushi/toml",
+			"revision": "a368813c5e648fee92e5f6c30e3944ff9d5e8895",
+			"revisionTime": "2017-06-26T11:06:00Z"
+		},
+		{
+			"checksumSHA1": "Cieurx6mCAkbdRNlZLDYsx+Ooik=",
+			"path": "github.com/Shopify/sarama",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "y2Kh4iPlgCPXSGTCcFpzePYdzzg=",
+			"path": "github.com/eapache/go-resiliency/breaker",
+			"revision": "b1fe83b5b03f624450823b751b662259ffc6af70",
+			"revisionTime": "2017-06-07T16:36:15Z"
+		},
+		{
+			"checksumSHA1": "oCCs6kDanizatplM5e/hX76busE=",
+			"path": "github.com/eapache/queue",
+			"revision": "44cc805cf13205b55f69e14bcb69867d1ae92f98",
+			"revisionTime": "2016-08-05T00:47:13Z"
+		},
+		{
+			"checksumSHA1": "p/8vSviYF91gFflhrt5vkyksroo=",
+			"path": "github.com/golang/snappy",
+			"revision": "553a641470496b2327abcac10b36396bd98e45c9",
+			"revisionTime": "2017-02-15T23:32:05Z"
+		},
+		{
+			"checksumSHA1": "HpnVP25yXZys8uwdVe25MKMIwn8=",
+			"path": "github.com/juju/errors",
+			"revision": "c7d06af17c68cd34c835053720b21f6549d9b0ee",
+			"revisionTime": "2017-07-03T01:00:42Z"
+		},
+		{
+			"checksumSHA1": "KSlGb8Y6GFb9um812/HF6t44QeY=",
+			"path": "github.com/klauspost/crc32",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "94Mvr/SU9I9Zl3pBtbHsBPN0LTg=",
+			"path": "github.com/ngaut/log",
+			"revision": "d2af3a61f64d093457fb23b25d20f4ce3cd551ce",
+			"revisionTime": "2017-03-07T01:10:05Z"
+		},
+		{
+			"checksumSHA1": "zmC8/3V4ls53DJlNTKDZwPSC/dA=",
+			"path": "github.com/satori/go.uuid",
+			"revision": "5bf94b69c6b68ee1b541973bb8e1144db23a194b",
+			"revisionTime": "2017-03-21T23:07:31Z"
+		},
+		{
+			"checksumSHA1": "GNkFnKWQMCymrJk2uopnTugC5PQ=",
+			"path": "github.com/siddontang/go-mysql/canal",
+			"revision": "89fc82130ac2531f20c672e80d5283c0b0c15290",
+			"revisionTime": "2017-09-13T05:59:21Z"
+		},
+		{
+			"checksumSHA1": "8XLT0aC4U9/OA7Ws9AHWdZ6+ruA=",
+			"path": "github.com/siddontang/go-mysql/client",
+			"revision": "89fc82130ac2531f20c672e80d5283c0b0c15290",
+			"revisionTime": "2017-09-13T05:59:21Z"
+		},
+		{
+			"checksumSHA1": "+IomYfdE61FQZX0Wk+QDjcPD/8w=",
+			"path": "github.com/siddontang/go-mysql/dump",
+			"revision": "89fc82130ac2531f20c672e80d5283c0b0c15290",
+			"revisionTime": "2017-09-13T05:59:21Z"
+		},
+		{
+			"checksumSHA1": "+UKPQHF1Q5RWhgHU3aHk/UXrvP4=",
+			"path": "github.com/siddontang/go-mysql/mysql",
+			"revision": "89fc82130ac2531f20c672e80d5283c0b0c15290",
+			"revisionTime": "2017-09-13T05:59:21Z"
+		},
+		{
+			"checksumSHA1": "n/oG8QPPwsvSAimc/gCSuh5GaOQ=",
+			"path": "github.com/siddontang/go-mysql/packet",
+			"revision": "89fc82130ac2531f20c672e80d5283c0b0c15290",
+			"revisionTime": "2017-09-13T05:59:21Z"
+		},
+		{
+			"checksumSHA1": "SvLh0vuif+mg4pKbcpr3pWFXOt4=",
+			"path": "github.com/siddontang/go-mysql/replication",
+			"revision": "89fc82130ac2531f20c672e80d5283c0b0c15290",
+			"revisionTime": "2017-09-13T05:59:21Z"
+		},
+		{
+			"checksumSHA1": "4FFjOrdCO3qgtLxHJDKv5Fe3LqI=",
+			"path": "github.com/siddontang/go-mysql/schema",
+			"revision": "89fc82130ac2531f20c672e80d5283c0b0c15290",
+			"revisionTime": "2017-09-13T05:59:21Z"
+		},
+		{
+			"checksumSHA1": "hou29E6PZ7dEDFgXgM9P15cgHr4=",
+			"path": "github.com/siddontang/go/hack",
+			"revision": "cb568a3e5cc06256f91a2da5a87455f717eb33f4",
+			"revisionTime": "2017-05-17T07:08:08Z"
+		},
+		{
+			"checksumSHA1": "Y+HGqEkYM15ir+J93MEaHdyFy0c=",
+			"path": "golang.org/x/net/context",
+			"revision": "5602c733f70afc6dcec6766be0d5034d4c4f14de",
+			"revisionTime": "2017-04-13T17:15:43Z"
+		}
+	],
+	"rootPath": "github.com/smbrave/mysql-kafka"
+}
