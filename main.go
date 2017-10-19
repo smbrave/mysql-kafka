@@ -1,7 +1,7 @@
 package main
 
 import (
-	"tunnel"
+	"github.com/smbrave/mysql-kafka/tunnel"
 )
 
 func main() {
