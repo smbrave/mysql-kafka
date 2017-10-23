@@ -59,7 +59,7 @@ func (h *Handler) handerSend(data *TunelData) error {
 	if err != nil {
 		return err
 	}
-	log.Printf("partition=%d, offset=%d\n", partition, offset)
+	log.Printf("partition=%d, offset=%d msg=%s\n", partition, offset, data.Data)
 	return nil
 }
 
@@ -80,7 +80,7 @@ func (h *Handler) handlerUpdate(e *canal.RowsEvent) error {
 		data.Action = e.Action
 
 		//主键
-		if len(pk) >= 0 {
+		if len(pk) > 0 {
 			data.Key = fmt.Sprintf("%v", e.Rows[i][pk[0]])
 		}
 
@@ -116,7 +116,7 @@ func (h *Handler) handlerInsert(e *canal.RowsEvent) error {
 		data.Action = e.Action
 
 		//主键
-		if len(pk) >= 0 {
+		if len(pk) > 0 {
 			data.Key = fmt.Sprintf("%v", e.Rows[i][pk[0]])
 		}
 
