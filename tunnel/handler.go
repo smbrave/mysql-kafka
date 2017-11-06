@@ -59,7 +59,7 @@ func (h *Handler) handerSend(data *TunelData) error {
 	if err != nil {
 		return err
 	}
-	log.Printf("partition=%d, offset=%d msg=%s\n", partition, offset, data.Data)
+	log.Printf("partition=%d, offset=%d metha=%s.%s action=%s msg=%s\n", partition, offset, data.Database, data.Table, data.Action, data.Data)
 	return nil
 }
 
